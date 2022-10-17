@@ -8,7 +8,7 @@ class Solution {
             larr[i] = Math.max(arr[i] , larr[i - 1]);
         }
         rarr[size - 1] = arr[size - 1];
-        for(int i = size - 2 ; i>=0 ; i--){
+        for(int i = size - 2 ; i>=0 ; i--){  
             rarr[i] = Math.max(arr[i] , rarr[i + 1]);
         }
         
