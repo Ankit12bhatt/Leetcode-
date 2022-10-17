@@ -15,25 +15,12 @@ class Solution {
         }
         for(int i=0;i<26;i++)
         {
-            if(arr[i]!=0)
-            {
-                count++;
-                
-            }
-            else
+            if(arr[i]==0)
             {
                 return false;
-            
             }
         }
-        if(count==26)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return true;
         
         
     }
